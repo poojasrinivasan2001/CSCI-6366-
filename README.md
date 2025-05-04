@@ -6,7 +6,7 @@ This project implements and compares a baseline CNN+GRU image captioning model a
 
 #### Repository Structure
 
-#### 1. `MODEL1_NN.py`
+#### 1. MODEL1_NN.py
 - **Description**: Baseline model using InceptionV3 (CNN) for feature extraction and a GRU decoder with Bahdanau (additive) attention.
 - **Training Dataset**: Flickr8k (8,000+ images, 5 captions per image)
 - **Key Features**: 
@@ -16,7 +16,7 @@ This project implements and compares a baseline CNN+GRU image captioning model a
 
 ---
 
-#### 2. `VAE_WithoutAttention.ipynb`
+#### 2. VAE_WithoutAttention.ipynb
 - **Description**: A Variational Autoencoder (VAE) is used to encode images into a latent vector `z`, followed by a GRU decoder without any attention.
 - **Training Dataset**: Flickr1k (1,000 images, 5 captions per image)
 - **Key Features**:
@@ -26,7 +26,7 @@ This project implements and compares a baseline CNN+GRU image captioning model a
 
 ---
 
-#### 3. `VAE_Additive_Attention_final.ipynb`
+#### 3. VAE_Additive_Attention_final.ipynb
 - **Description**: Builds on the VAE baseline by integrating Bahdanau (additive) attention in the GRU decoder.
 - **Training Dataset**: Flickr1k (1,000 images, 5 captions per image)
 - **Key Features**:
@@ -36,7 +36,7 @@ This project implements and compares a baseline CNN+GRU image captioning model a
 
 ---
 
-#### 4. `VAE_Cross_Attention_.ipynb`
+#### 4. VAE_Cross_Attention_.ipynb
 - **Description**: Introduces a cross-attention mechanism where the latent representation interacts with embedded decoder inputs.
 - **Training Dataset**: Flickr1k (1,000 images, 5 captions per image)
 - **Key Features**:
@@ -46,7 +46,7 @@ This project implements and compares a baseline CNN+GRU image captioning model a
 
 ---
 
-#### 5. `VAE_Self_Attention.ipynb`
+#### 5. VAE_Self_Attention.ipynb
 - **Description**: Implements a VAE encoder with a self-attention-based decoder to model intra-caption dependencies.
 - **Training Dataset**: Flickr1k (1,000 images, 5 captions per image)
 - **Key Features**:
@@ -60,8 +60,8 @@ This project implements and compares a baseline CNN+GRU image captioning model a
 
 | Model File                     | Dataset   | Download Link |
 |-------------------------------|-----------|----------------|
-| `MODEL1_NN.py`                | Flickr8k  | [Flickr8k Dataset](https://github.com/jbrownlee/Datasets/releases/tag/Flickr8k) |
-| All VAE Models (`*.ipynb`)    | Flickr1k  | [Flickr1k on Kaggle](https://www.kaggle.com/datasets/keenwarrior/small-flicker-data-for-image-captioning) |
+| MODEL1_NN.py                | Flickr8k  | [Flickr8k Dataset](https://github.com/jbrownlee/Datasets/releases/tag/Flickr8k) |
+| All VAE Models (*.ipynb)    | Flickr1k  | [Flickr1k on Kaggle](https://www.kaggle.com/datasets/keenwarrior/small-flicker-data-for-image-captioning) |
 
 ---
 
