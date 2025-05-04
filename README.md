@@ -1,4 +1,4 @@
-# 🧠 Neural Narrators: A Comparative Study of CNN-GRU and VAE-GRU for Image Captioning
+#  Neural Narrators: A Comparative Study of CNN-GRU and VAE-GRU for Image Captioning
 
 This project implements and compares a baseline CNN+GRU image captioning model against four advanced Variational Autoencoder (VAE) + GRU models, each incorporating different attention mechanisms. The goal is to evaluate how attention and latent feature modeling affect the quality of generated captions.
 
