@@ -56,7 +56,7 @@ This project implements and compares a baseline CNN+GRU image captioning model a
 
 ---
 
-#### 📊 Datasets
+####  Datasets
 
 | Model File                     | Dataset   | Download Link |
 |-------------------------------|-----------|----------------|
@@ -81,3 +81,14 @@ To run this project, install the following Python packages:
 
 ```bash
 pip install tensorflow numpy pandas matplotlib nltk scikit-learn tqdm
+
+---
+
+#### References
+
+This project was inspired and guided by several publicly available resources and implementations:
+
+TensorFlow Image Captioning Tutorial: https://www.tensorflow.org/text/tutorials/image_captioning
+Google Cloud Image Captioning Notebook: https://github.com/GoogleCloudPlatform/asl-ml-immersion/blob/master/notebooks/multi_modal/solutions/image_captioning.ipynb
+IEEE-NITK Image Captioning GitHub Repository: https://github.com/IEEE-NITK/Image_Captioning
+Medium Article – Image Captioning: An Eye for the Blind: https://medium.com/analytics-vidhya/image-captioning-an-eye-for-blind-6d402f180c08
