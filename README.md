@@ -79,10 +79,10 @@ Evaluation is performed on a **5-point ordinal scale**, where 1 is poor and 5 is
 
 This project was inspired and guided by several publicly available resources and implementations:
 
-TensorFlow Image Captioning Tutorial: https://www.tensorflow.org/text/tutorials/image_captioning
-Google Cloud Image Captioning Notebook: https://github.com/GoogleCloudPlatform/asl-ml-immersion/blob/master/notebooks/multi_modal/solutions/image_captioning.ipynb
-IEEE-NITK Image Captioning GitHub Repository: https://github.com/IEEE-NITK/Image_Captioning
-Medium Article – Image Captioning: An Eye for the Blind: https://medium.com/analytics-vidhya/image-captioning-an-eye-for-blind-6d402f180c08
+*TensorFlow Image Captioning Tutorial: https://www.tensorflow.org/text/tutorials/image_captioning
+*Google Cloud Image Captioning Notebook: https://github.com/GoogleCloudPlatform/asl-ml-immersion/blob/master/notebooks/multi_modal/solutions/image_captioning.ipynb
+*IEEE-NITK Image Captioning GitHub Repository: https://github.com/IEEE-NITK/Image_Captioning
+*Medium Article – Image Captioning: An Eye for the Blind: https://medium.com/analytics-vidhya/image-captioning-an-eye-for-blind-6d402f180c08
 
 ---
 
